@@ -1,0 +1,985 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-2 {
+    width: 100%;
+    
+}
+
+/* ************************* SECTION-2-PHONES     ***************************************** */
+.section-2-phone-main{
+    background: rgb(138,186,227);
+    background: linear-gradient(90deg, rgba(138,186,227,1) 14%, rgba(66,66,228,0.5466386383655024) 61%, rgba(29,20,191,1) 100%);
+}
+
+.section-2-phone{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    
+    
+    
+}
+
+
+
+.section-2-phone-left{
+    justify-content: flex-end;
+    align-self: center;
+    margin-left: 13rem;
+    width: 100%;
+   padding: 1rem;
+   border-radius: .5rem;
+   
+}
+
+.section-2-phone-image{
+    margin-right: 13rem;
+}
+
+.phone-list{
+    margin: 2rem;
+    list-style: none;
+    
+}
+
+.phone-makers{
+    padding: .3rem;
+}
+
+.section-2-phone-image{
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+img{
+    border-radius: .5rem;
+
+}
+
+.shopNow-phone{
+    
+    display: flex;
+    margin-top: 2rem;
+    background-color: gray;
+    border-radius: .5rem;
+    width: 50%;
+    height: 2rem;
+    justify-content: center;
+    align-content:  center;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    background-color: rgb(5, 114, 197);
+}
+
+.shopNow-phone:hover{
+
+    background-color: rgb(5, 114, 197);
+    border-radius: .5rem;
+    transform: scale(1.1);
+}
+
+
+
+
+@media  screen and (min-width:200px) and (max-width:380px){
+
+
+
+    .section-2-phone{
+        
+        width: 100%;
+        display: block;
+        padding: 1rem;
+        position: relative;
+        
+    }
+    
+    .section-2-phone-left{
+        position:absolute;
+        width: 50%;
+        right: .3rem;
+        border: 2px red solid;
+
+    }
+
+    .phone-list{
+        margin: .1rem;
+        list-style: none;
+        
+    }
+
+    .section-2-phone-image{
+        width: 55%;
+        padding: 1rem;
+    }
+    
+    img{
+        width: 100%;
+        border-radius: .5rem;
+    }
+
+    .shopNow-phone{
+    
+        display: flex;
+        margin-top: .5rem;
+        background-color: gray;
+        border-radius: .5rem;
+        width: 80%;
+        height: 1.5rem;
+        justify-content: center;
+        align-content:  center;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        background-color: rgb(5, 114, 197);
+    }
+    
+    .shopNow-phone:hover{
+    
+        background-color: rgb(5, 114, 197);
+        border-radius: .5rem;
+        transform: scale(1.1);
+    }
+    
+    
+}
+
+@media  screen and (min-width:702px) and (max-width:1050px) {
+
+    .shopNow-phone{
+    
+        display: flex;
+        margin-top: .5rem;
+        background-color: gray;
+        border-radius: .5rem;
+        width: 80%;
+        height: 1.5rem;
+        justify-content: center;
+        align-content:  center;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        background-color: rgb(5, 114, 197);
+    }
+    
+    .shopNow-phone:hover{
+    
+        background-color: rgb(5, 114, 197);
+        border-radius: .5rem;
+        transform: scale(1.1);
+    }
+}
+
+
+/* **************************** MOBILE (MIN-WIDTH:381PX) AND (MAX-WIDTH:760PX)  ********************************************* */
+
+@media  screen and (min-width:400px) and (max-width:700px){
+
+
+
+    .section-2-phone{
+        
+        width: 100%;
+        display: block;
+        padding: 1rem;
+        position: relative;
+        
+    }
+    
+    .section-2-phone-left{
+        position:absolute;
+        width: 50%;
+        margin-top: 1rem;
+        right: .3rem;
+        border: 2px rgb(111, 0, 255) solid;
+        
+
+    }
+
+    .phone-list{
+        top: 1rem;
+        margin: .1rem;
+        list-style: none;
+        
+    }
+
+    .section-2-phone-image{
+        width: 55%;
+        padding: 1rem;
+    }
+    
+    img{
+        width: 100%;
+        border-radius: .5rem;
+    }
+
+    .shopNow-phone{
+    
+        display: flex;
+        margin-top: .5rem;
+        background-color: gray;
+        border-radius: .5rem;
+        width: 80%;
+        height: 1.5rem;
+        justify-content: center;
+        align-content:  center;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        background-color: rgb(5, 114, 197);
+    }
+    
+    .shopNow-phone:hover{
+    
+        background-color: rgb(5, 114, 197);
+        border-radius: .5rem;
+        transform: scale(1.1);
+    }
+    
+    
+}
+
+
+/* ********************************  COMPUTERS SECTION    *****************************/
+
+.section-2-computer {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    border-bottom: 1px gray solid;
+    background-color: gray;
+    
+}
+
+
+
+.section-2-computer-left{
+   width: 100%;
+   padding: 1rem;
+   align-self: center;
+   border-radius: .5rem;
+   margin-right: 2rem;
+   
+   
+}
+
+
+.section-2-computer-image{
+    margin-left: 5rem;
+}
+
+.shopNow-computer{
+    
+    display: flex;
+    margin-top: 2rem;
+    background-color: rgba(12, 12, 12, 0.274);
+    border-radius: .5rem;
+    width: 30%;
+    height: 2rem;
+    justify-content: center;
+    align-content:  center;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.shopNow-computer:hover{
+    color: white;
+    background-color: gray;
+    border-radius: .5rem;
+    transform: scale(1.1);
+}
+.computer-list{
+    margin: 2rem;
+    list-style: none;
+    
+    
+}
+.computer-header{
+    color: white;
+}
+.computer-makers{
+    padding: .3rem;
+    color: white;
+}
+
+.section-2-computer-image{
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+img{
+    border-radius: .5rem;
+
+}
+
+
+ 
+    
+    
+
+@media  screen and (min-width:200px) and (max-width:380px){
+
+    .section-2-computer {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    border-bottom: 1px gray solid;
+    background-color: gray;
+    position: relative;
+    height: 17rem;
+        
+    }
+
+
+    .section-2-computer-left{
+
+        position: absolute;
+        margin-right: 1rem;
+        width: 95%;
+        border: 2px red solid;
+
+    }
+
+    .computer-list{
+        margin: .5rem;
+        list-style: none;
+        
+    }
+
+    .section-2-computer-image{
+        position: absolute;
+        width: 55%;
+        padding: 1rem;
+        left: 3.5rem;
+        
+    }
+
+    .computer-img{
+
+        width: 100%;
+        border-radius: .5rem;
+
+    }
+
+    .shopNow-computer{
+
+        display: flex;
+        margin-top: 2rem;
+        background-color: gray;
+        border-radius: .5rem;
+        width: 35%;
+        height: 2rem;
+        justify-content: center;
+        align-content:  center;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        background-color: rgb(5, 114, 197);
+    }
+
+    .shopNow-computer:hover{
+
+        background-color: rgb(5, 114, 197);
+        border-radius: .5rem;
+        transform: scale(1.1);
+    }
+
+}
+
+@media  screen and (min-width:400px) and (max-width:700px){
+
+    .section-2-computer {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    border-bottom: 1px gray solid;
+    background-color: gray;
+    position: relative;
+    height: 17rem;
+        
+    }
+
+
+    .section-2-computer-left{
+
+        position: absolute;
+        margin-right: 1rem;
+        width: 95%;
+        border: 2px red solid;
+
+    }
+
+    .computer-list{
+        margin: .5rem;
+        list-style: none;
+        
+    }
+
+    .section-2-computer-image{
+        position: absolute;
+        width: 58%;
+        padding: 1rem;
+        left: 4.5rem;
+        
+    }
+
+    .computer-img{
+
+        width: 100%;
+        border-radius: .5rem;
+
+    }
+
+    .shopNow-computer{
+
+        display: flex;
+        margin-top: 2rem;
+        background-color: gray;
+        border-radius: .5rem;
+        width: 35%;
+        height: 2rem;
+        justify-content: center;
+        align-content:  center;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        background-color: rgb(5, 114, 197);
+    }
+
+    .shopNow-computer:hover{
+
+        background-color: rgb(5, 114, 197);
+        border-radius: .5rem;
+        transform: scale(1.1);
+    }
+
+}
+
+
+
+
+
+
+/* ***************************************** KITCHEN SECTION  ************************************* */
+
+
+.section-2-kitchen{
+    
+   background-color: rgb(236, 235, 235);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.section-2-kitchen-left{
+   width: 100%;
+   padding: 1rem;
+   align-self: center;
+   border-radius: .5rem;
+   margin-left: 7rem;
+}
+
+.kitchen-list-outer{
+    margin-left: 10rem;
+}
+
+
+
+.kitchen-list{
+    margin: 2rem;
+    list-style: none;
+}
+
+.kitchen-makers{
+    padding: .3rem;
+}
+
+.shopNow-kitchen{
+    
+    display: flex;
+    margin-top: 2rem;
+    background-color: gray;
+    border-radius: .5rem;
+    width: 40%;
+    height: 2rem;
+    justify-content: center;
+    align-content:  center;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    
+    margin-left: 10.5rem;
+}
+
+.shopNow-kitchen:hover{
+
+    background-color: gray;
+    border-radius: .5rem;
+    transform: scale(1.1);
+}
+
+.section-2-kitchen-image{
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+img{
+    border-radius: .5rem;
+
+}
+
+@media  screen and (min-width:200px) and (max-width:380px){
+
+
+
+    .section-2-kitchen{
+        
+        width: 100%;
+        display: block;
+        padding: 1rem;
+        position: relative;
+        height: 16rem;
+      
+    }
+    
+    .section-2-kitchen-left{
+        position:absolute;
+        width: 90%;
+        margin-left: 1.2rem;
+        
+    }
+
+    .kitchen-list{
+        margin: .1rem;
+        list-style: none;
+    }
+
+
+    .section-2-kitchen-image{
+        width: 100%;
+        padding: 1rem;
+        
+    }
+    
+    .kitchen-image{
+        position: absolute;
+        top: 4rem;
+        width: 55%;
+        border-radius: .5rem;
+        margin-left: -1.3rem;
+    
+    }
+
+    .shopNow-kitchen{
+    
+        
+        display: flex;
+        background-color: gray;
+        border-radius: .5rem;
+        width: 38%;
+        height: 1.5rem;
+        justify-content: center;
+        align-content:  center;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        
+        
+    }
+ 
+    .shopNow-kitchen:hover{
+    
+        background-color: gray;
+        border-radius: .5rem;
+        transform: scale(1.1);
+    }
+    
+    
+}
+
+
+@media  screen and (min-width:400px) and (max-width:700px){
+
+
+
+    .section-2-kitchen{
+        
+        width: 100%;
+        display: block;
+        padding: 1rem;
+        position: relative;
+        height: 16rem;
+      
+    }
+    
+    .section-2-kitchen-left{
+        position:absolute;
+        width: 90%;
+        margin-left: 1.2rem;
+        
+    }
+
+    .kitchen-list{
+        margin: .1rem;
+        list-style: none;
+    }
+
+
+    .section-2-kitchen-image{
+        width: 100%;
+        padding: 1rem;
+        
+    }
+    
+    .kitchen-image{
+        position: absolute;
+        top: 4rem;
+        width: 45%;
+        border-radius: .5rem;
+        margin-left: -1.3rem;
+    
+    }
+
+    .shopNow-kitchen{
+    
+        
+        display: flex;
+        background-color: gray;
+        border-radius: .5rem;
+        width: 38%;
+        height: 1.5rem;
+        justify-content: center;
+        align-content:  center;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        
+        
+    }
+ 
+    .shopNow-kitchen:hover{
+    
+        background-color: gray;
+        border-radius: .5rem;
+        transform: scale(1.1);
+    }
+    
+    
+}
+
+
+@media  screen and (min-width:702px) and (max-width:1050px){
+
+    .kitchen-image{
+        
+        width: 90%;
+        border-radius: .5rem;
+    
+    }
+    .section-2-kitchen-left{
+        
+        width: 90%;
+        margin-left: 1.2rem;
+        
+    }
+
+}
+
+
+
+/* ***************************************** OFFICE SECTION  ************************************* */
+
+.section-2-office {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin-right: 18rem;
+    background-color: black;
+    background: rgb(138,186,227);
+    background: linear-gradient(90deg, rgba(138,186,227,1) 14%, rgba(66,66,228,0.5466386383655024) 61%, #000000 100%);
+}
+
+
+
+.section-2-office-left{
+   width: 100%;
+   padding: 1rem;
+   align-self: center;
+   color: white;
+   border-radius: .5rem;
+   margin-left: 4rem;
+}
+
+.shopNow-office{
+    
+    display: flex;
+    margin-top: 1rem;
+    background-color: rgba(12, 12, 12, 0.274);
+    border-radius: .5rem;
+    width: 25%;
+    height: 2rem;
+    justify-content: center;
+    align-content:  center;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    color: white;
+    background-color: black;
+}
+
+.shopNow-office:hover{
+    color: gold;
+    background-color: black;
+    border-radius: .5rem;
+    transform: scale(1.1);
+}
+
+.office-list{
+    margin: 1rem;
+    list-style: none;
+}
+
+.office-makers{
+    padding: .3rem;
+}
+
+.section-2-office-image{
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+img{
+    border-radius: .5rem;
+}
+
+@media  screen and (min-width:200px) and (max-width:380px){
+
+    
+    .section-2-office {
+        height: 17rem;
+        width: 100%;
+        display: block;
+        justify-content: space-around;
+        padding: 1rem;
+        margin-right: 18rem;
+        background-color: black;
+        background: rgb(138,186,227);
+        background: linear-gradient(90deg, rgba(138,186,227,1) 14%, rgba(66,66,228,0.5466386383655024) 61%, #000000 100%);
+        
+    }
+
+
+    .section-2-office-left{
+        position: absolute;
+        width: 35%;
+        margin-left: .5rem;
+    }
+
+    .office-list{
+        margin: .5rem;
+        list-style: none;
+        
+    }
+
+    .section-2-office-image{
+        position: absolute;
+        width: 55%;
+        padding: 1rem;
+        left: 5rem;
+        
+        
+    }
+
+    .office-img{
+        width: 80%;
+        border-radius: .5rem;
+        position: absolute;
+        left: 5rem;
+        top: 4rem;
+
+
+    }
+
+    .shopNow-office{
+
+        display: flex;
+        margin-top: 2rem;
+        background-color: gray;
+        border-radius: .5rem;
+        width: 95%;
+        height: 2rem;
+        justify-content: center;
+        align-content:  center;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        background-color: rgb(5, 114, 197);
+    }
+
+    .shopNow-office:hover{
+
+        background-color: rgb(5, 114, 197);
+        border-radius: .5rem;
+        transform: scale(1.1);
+    }
+
+
+}
+
+
+@media  screen and (min-width:400px) and (max-width:700px){
+
+    
+    .section-2-office {
+        height: 17rem;
+        width: 100%;
+        display: block;
+        justify-content: space-around;
+        padding: 1rem;
+        margin-right: 18rem;
+        background-color: black;
+        background: rgb(138,186,227);
+        background: linear-gradient(90deg, rgba(138,186,227,1) 14%, rgba(66,66,228,0.5466386383655024) 61%, #000000 100%);
+        
+    }
+
+
+    .section-2-office-left{
+        position: absolute;
+        width: 35%;
+        margin-left: .5rem;
+    }
+
+    .office-list{
+        margin: .5rem;
+        list-style: none;
+        
+    }
+
+    .section-2-office-image{
+        position: absolute;
+        width: 65%;
+        padding: 1rem;
+        left: 6rem;
+        
+        
+    }
+
+    .office-img{
+        width: 80%;
+        border-radius: .5rem;
+        position: absolute;
+        left: 5rem;
+        top: 1.5rem;
+
+
+    }
+
+    .shopNow-office{
+
+        display: flex;
+        margin-top: 2rem;
+        background-color: gray;
+        border-radius: .5rem;
+        width: 95%;
+        height: 2rem;
+        justify-content: center;
+        align-content:  center;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        background-color: rgb(5, 114, 197);
+    }
+
+    .shopNow-office:hover{
+
+        background-color: rgb(5, 114, 197);
+        border-radius: .5rem;
+        transform: scale(1.1);
+    }
+
+
+}
+
+@media  screen and (min-width:702px) and (max-width:1050px){
+
+    .section-2-office {
+        height: 28rem;
+        width: 100%;
+        display: block;
+        justify-content: space-around;
+        padding: 1rem;
+        margin-right: 18rem;
+        background-color: black;
+        background: rgb(138,186,227);
+        background: linear-gradient(90deg, rgba(138,186,227,1) 14%, rgba(66,66,228,0.5466386383655024) 61%, #000000 100%);
+        
+    }
+
+
+    .section-2-office-left{
+        position: absolute;
+        width: 55%;
+        margin-left: 38rem;
+        margin-top: 5rem;
+        
+    }
+
+    .office-list{
+        margin: .5rem;
+        list-style: none;
+        
+    }
+
+    .section-2-office-image{
+        position: absolute;
+        width: 65%;
+        padding: 1rem;
+    }
+
+    .office-img{
+        width: 80%;
+        border-radius: .5rem;
+        position: absolute;
+        top: 1.5rem;
+    }
+
+    .shopNow-office{
+
+        display: flex;
+        margin-top: 1rem;
+        background-color: gray;
+        border-radius: .5rem;
+        width: 20%;
+        height: 2rem;
+        justify-content: center;
+        align-content:  center;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        background-color: rgb(5, 114, 197);
+    }
+
+    .shopNow-office:hover{
+
+        background-color: rgb(5, 114, 197);
+        border-radius: .5rem;
+        transform: scale(1.1);
+    }
+
+}
+
+/* *************************************  MOBILE    ***************************************************************** */
