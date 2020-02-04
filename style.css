@@ -109,7 +109,6 @@ img{
         position:absolute;
         width: 50%;
         right: .3rem;
-        border: 2px red solid;
 
     }
 
@@ -200,7 +199,6 @@ img{
         width: 50%;
         margin-top: 1rem;
         right: .3rem;
-        border: 2px rgb(111, 0, 255) solid;
         
 
     }
@@ -351,7 +349,6 @@ img{
         position: absolute;
         margin-right: 1rem;
         width: 95%;
-        border: 2px red solid;
 
     }
 
@@ -421,7 +418,6 @@ img{
         position: absolute;
         margin-right: 1rem;
         width: 95%;
-        border: 2px red solid;
 
     }
 
@@ -933,7 +929,7 @@ img{
 
     .section-2-office-left{
         position: absolute;
-        width: 55%;
+        width: 35%;
         margin-left: 38rem;
         margin-top: 5rem;
         
@@ -964,7 +960,7 @@ img{
         margin-top: 1rem;
         background-color: gray;
         border-radius: .5rem;
-        width: 20%;
+        width: 40%;
         height: 2rem;
         justify-content: center;
         align-content:  center;
