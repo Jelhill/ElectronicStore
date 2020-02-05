@@ -1,4 +1,4 @@
-*{
+/* *{
     box-sizing: border-box;
     margin:0px;
     padding:0px;
@@ -95,7 +95,150 @@ li{
     height: inherit;
     border:1px solid black;
     border-radius: 25px;
+} */
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #F3F3F3;
+    display: flex;
+    overflow: inherit;
 }
+
+#logo-div{
+    float: left;
+}
+
+#nav{
+    float: left;
+    width: 60%;
+    overflow: inherit;
+}
+
+#right-side-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F3F3
+}
+
+#search-area{
+    float: left;
+    width: 25%;
+    margin: auto;
+}
+
+#search-area input{
+    height: 35px;
+    width: 80%;
+    border-radius: 25px;
+    margin-left: auto;
+    border: 1px solid cornsilk;  
+    padding-left: 25px; 
+    font-size: 16px;
+
+}
+
+#nav-right {
+    padding-top: 50px;
+    width: 15%;
+}
+
+#nav-right a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+    position: relative;
+}
+
+#nav-right a:hover{
+    color: gray;
+       
+}
+
+
+#logo-div img {
+    width: 100px;
+    height: 100px;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.header li {
+    display: block;
+    float: left;
+    margin-right: 1px;
+
+}
+
+.header li a {
+    display:block;
+    min-width:100px;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+    text-decoration: none;
+    padding-top: 40px;
+
+    
+}
+
+.header li:hover ul a {
+    background: #F3F3F3;
+    color: #2f3036;
+    height: 60px;
+    line-height: 90px;
+}
+
+.header li:hover ul a:hover {    
+    color: #000;
+}
+
+.header li ul {
+    display: none;
+}
+
+.header li ul li {
+    display: block;
+    float: none;
+}
+
+.header li ul li a {
+    width: auto;
+    padding: 0 20px;
+}
+
+.header ul li a:hover + .hidden, .hidden:hover {
+    display: block;
+}
+
+.menu:hover{
+    transform: scaleY(1.1);
+}
+
+/* @media screen and (max-width : 760px){
+    ul {
+        position: static;
+        display: none;
+    }
+
+    li {
+        margin-bottom: 1px;
+    }
+    
+    ul li, li a {
+        width: 100%;
+    } */
+
+
+/* Section One begins here */
 body{
     margin: 0px;
 }
@@ -257,34 +400,37 @@ p{
 }
 
 .category img{
-    height: 100%;
-    width: 63%;
-    float: left;
+    height: 83%;
+    width: 90%;
+    margin-top: 7%;
+
 }
 
 .category-two img{
-    height: 100%;
-    width: 63%;
-    float: left;
+    height: 85%;
+    width: 90%;
+    margin-top: 5%;
 }
+
 .description{
-    width: 35%;
-    height: 100%;
-    float: left;
-    padding-top: 30%;
+    width: 90%;
+    height: 10%;
+    padding-top: 0%;
+    text-align: center;
+    
 }
 .f1{
     font-size: 80px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #000;
+    color: #424242;
     animation: text 5s 1;
 }
 .f1-sm{
     font-size: 60px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #2C3E50;
+    color: #6E6E6E;
     padding-top: 100px;
     
 }
@@ -478,9 +624,129 @@ html{
 
 
 
-@media  screen and (min-width:200px) and (max-width:380px){
+@media screen and (min-width:200px) and (max-width:380px){
 
+    .slider-holder{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 30px;
+    }
 
+    .slider-holder img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .image-div{
+        height: 100%;
+        width: 80vw;
+        float: left;
+    
+    }
+
+    .f1{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #000;
+        animation: text 5s 1;
+    }
+    .f1-sm{
+        font-size: 60px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #2C3E50;
+        padding-top: 100px;
+        
+    }
+
+    .image-div-desc{
+        height: 20%;
+        width: 100%;
+        display: none;
+    }
+    
+    
+    .image-div-inner-image{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .image-div-desc-side{
+        height: 20%;
+        width: 100%;
+        display: none;
+    }
+    
+    .image-div-inner-image-side{
+        height: 100%;
+        width: 100%;
+    }
+
+    #top-categories-div{
+        padding-top: 50px;
+        height: 100vh;
+        width: 100vw;
+        background-color: gray; 
+        display: none;
+    }
+    
+    #category-wrapper{    
+        height: 30%;
+        width: 100%;
+        margin: auto;
+        margin-top: 1%;
+        padding-left: 2%;   
+    }
+    
+    .category-wrapper-two{    
+        height: 30%;
+        width: 65%;
+        margin: auto;
+        margin-top: 1%;
+    }
+    
+    .category{
+        width: 100%;
+        height: 90%;    
+        float: left;
+        margin-right: 1%;
+        
+    }
+    
+    .category:hover, .category-two:hover {
+        border-radius: 15px;
+        transform: scale(1.1);        
+    }
+    
+    .category-two{
+        width: 100%;
+        height: 90%;    
+        float: left;
+        
+    }
+    
+    .category img{
+        height: 100%;
+        width: 63%;
+        float: left;
+    }
+    
+    .category-two img{
+        height: 100%;
+        width: 63%;
+        float: left;
+    }
+    .description{
+        width: 35%;
+        height: 100%;
+        float: left;
+        padding-top: 30%;
+    }
+    
 
     .section-2-phone{
         
@@ -568,6 +834,115 @@ html{
 /* **************************** MOBILE (MIN-WIDTH:381PX) AND (MAX-WIDTH:760PX)  ********************************************* */
 
 @media  screen and (min-width:400px) and (max-width:700px){
+
+    .slider-holder{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .slider-holder img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .image-div{
+        height: 100%;
+        width: 80vw;
+        float: left;
+    
+    }
+
+    .f1{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #000;
+        animation: text 5s 1;
+    }
+    .f1-sm{
+        font-size: 60px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #2C3E50;
+        padding-top: 100px;
+        
+    }
+
+    .image-div-desc{
+        height: 20%;
+        width: 100%;
+        display: none;
+    }
+    
+    
+    .image-div-inner-image{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .image-div-desc-side{
+        height: 20%;
+        width: 100%;
+        display: none;
+    }
+    
+    .image-div-inner-image-side{
+        height: 100%;
+        width: 100%;
+    }
+
+    #top-categories-div{
+        background-color: blue;
+        display: unset;
+    }
+    
+    #category-wrapper{    
+        height: 30%;
+        width: 100%;
+        margin: auto;
+        margin-top: 1%;
+        padding-left: 2%;   
+    }
+    
+    .category-wrapper-two{    
+        height: 30%;
+        width: 100%;
+        margin: auto;
+        margin-top: 1%;
+    }
+    
+    .category{  
+        width: 100%;
+        float: left;
+        margin-right: 1%;
+        
+    }   
+        
+    .category-two{
+        width: 100%;
+        float: left;        
+        display: none;
+    }
+    
+    .category img{
+        width: 50%;
+        float: left;
+    }
+    
+    .category-two img{
+        width: 50%;
+        float: left;
+    }
+    .description{
+        width: 50%;
+        float: left;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
 
 
 
@@ -1060,6 +1435,107 @@ html{
 
 
 @media  screen and (min-width:702px) and (max-width:1050px){
+
+    .slider-holder{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .f1{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #000;
+        animation: text 5s 1;
+    }
+
+    .image-div-desc{
+        height: 20%;
+        width: 100%;
+        display: none;
+    }
+    
+    
+    .image-div-inner-image{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .image-div-desc-side{
+        height: 20%;
+        width: 100%;
+        display: none;
+    }
+    
+    .image-div-inner-image-side{
+        height: 100%;
+        width: 100%;
+    }
+
+    #top-categories-div{
+        padding-top: 50px;
+        height: 100vh;
+        width: 100vw;
+        background-color: gray; 
+        display: none;
+    }
+    
+    #category-wrapper{    
+        height: 30%;
+        width: 100%;
+        margin: auto;
+        margin-top: 1%;
+        padding-left: 2%;   
+    }
+    
+    .category-wrapper-two{    
+        height: 30%;
+        width: 65%;
+        margin: auto;
+        margin-top: 1%;
+    }
+    
+    .category{
+        width: 100%;
+        height: 90%;    
+        float: left;
+        margin-right: 1%;
+        
+    }
+    
+    .category:hover, .category-two:hover {
+        border-radius: 15px;
+        transform: scale(1.1);        
+    }
+    
+    .category-two{
+        width: 100%;
+        height: 90%;    
+        float: left;
+        
+    }
+    
+    .category img{
+        height: 100%;
+        width: 63%;
+        float: left;
+    }
+    
+    .category-two img{
+        height: 100%;
+        width: 63%;
+        float: left;
+    }
+    .description{
+        width: 35%;
+        height: 100%;
+        float: left;
+        padding-top: 30%;
+    }
 
     .kitchen-image{
         
