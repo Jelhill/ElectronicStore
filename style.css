@@ -1484,7 +1484,7 @@ input[type="submit"] {
     font-size: 1.25rem;
 }
 
-img {
+.img {
     margin-top: 8px;
     width: 22px;
     height: 22px;
