@@ -133,7 +133,7 @@ input[type="submit"] {
 }
 
 img {
-    margin-top: 10px;
+    margin-top: 8px;
     width: 22px;
     height: 22px;
 }
@@ -176,7 +176,7 @@ img {
     color: #eee;
 }
 
-/* one before the last child 
+/* one before the last child */
 .ft-legal-list li:nth-last-child(2) {
     flex: 1;
-} */
+}
