@@ -1,0 +1,286 @@
+body{
+
+}
+
+header{
+    height: 12vh;
+    width: 100vw;
+}
+
+p{
+    margin: 0px;
+}
+.section-one{
+    /* height: 80vh; */
+    width: 100vw;
+}
+
+
+.slider-holder
+{
+    width: 80%;
+    height: 80vh;
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slider-holder img {
+    height: 100%;
+    width: 100%;
+}
+
+.image-div{
+    height: 100%;
+    width: 80vw;
+    float: left;
+
+}
+
+.image-div a {
+    text-decoration: none;
+
+}
+.image-div-desc{
+    height: 20%;
+    width: 100%;
+}
+
+
+.image-div-inner-image{
+    height: 70%;
+    width: 100%;
+}
+
+.image-div-desc-side{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.image-div-inner-image-side{
+    width: 69%;
+    height: 100%;
+    float: left;
+}
+
+.image-holder
+{
+    width: 300vw;
+    height: 100%;
+    clear: both;
+    position: relative;   
+    -webkit-transition: left 3s;
+    -moz-transition: left 3s;
+    -o-transition: left 3s;
+    transition: left 3s;
+    animation: slide 15s infinite 5s;
+}
+
+
+#slider-image-1:target ~ .image-holder
+{
+    left: -0px;
+}
+
+#slider-image-2:target ~ .image-holder
+{
+    left: -80vw
+}
+
+#slider-image-3:target ~ .image-holder
+{
+    left: -160vw;
+}
+
+.button-holder
+{
+    position: relative;
+    top: -20px;
+}
+
+.slider-change
+{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(131, 123, 123);
+    margin-right: 10px;
+}
+
+/* Top categories */
+#top-categories-div{
+    padding-top: 50px;
+    height: 100vh;
+    width: 100vw;
+    background-color: gray; 
+}
+
+.align-text {
+    text-align: center;
+}
+
+#category-wrapper{    
+    height: 45%;
+    width: 100%;
+    margin: auto;
+    margin-top: 1%;
+    padding-left: 2%;
+}
+
+.category-wrapper-two{    
+    height: 45%;
+    width: 65%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.category{
+    width: 30%;
+    height: 90%;    
+    float: left;
+    margin-right: 1%;
+    
+}
+
+.category:hover, .category-two:hover {
+    
+    border-radius: 15px;
+    transform: scale(1.1);
+    
+}
+
+.category-two{
+    width: 48%;
+    height: 90%;    
+    float: left;
+    
+}
+
+.category img{
+    height: 100%;
+    width: 63%;
+    float: left;
+}
+
+.category-two img{
+    height: 100%;
+    width: 63%;
+    float: left;
+}
+.description{
+    width: 35%;
+    height: 100%;
+    float: left;
+    padding-top: 30%;
+}
+.f1{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    animation: text 5s 1;
+}
+.f1-sm{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2C3E50;
+    padding-top: 100px;
+    
+}
+
+.f2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+}
+
+.f4{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #D6DBDF;
+}
+
+.bg1{
+    background-color: ;
+}
+
+
+@media (max-width: 1000px){
+    #top-categories-div{
+        height: 70vh;
+        width: 100vw;
+        /* background-color: blue; */
+    }
+
+    #category-wrapper{    
+        height: 80%;
+        width: 90%;
+        margin: auto;
+        margin-top: 1%;
+        /* background-color: green;  */
+    }    
+
+    .category{
+        width: 45%;
+        height: 40%;    
+        float: left;
+        margin-right: 1%;
+        /* border-right: 1px solid black; */
+        padding-top: 3%;
+    }
+}
+
+/* @media (max-width: 680px){
+    #top-categories-div{
+        height: 90vh;
+        width: 100vw;
+        
+    }
+
+    #category-wrapper{    
+        height: 80%;
+        width: 90%;
+        margin: auto;
+        margin-top: 1%;
+        
+    }    
+
+    .category{
+        width: 90%;
+        height: 31%;    
+        float: left;
+        margin-right: 1%;
+        padding-top: 3%;
+    }
+} */
+
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: -20px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -20px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -20px;
+    }
+}
+
+@keyframes slide{
+    0% {
+        left: -0vw;
+    }
+    50%{
+        left: -80vw;
+    }
+    100%{
+        left: -160vw;
+    }
+}
